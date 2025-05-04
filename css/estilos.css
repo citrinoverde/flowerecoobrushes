@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fef4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background-color: #f8e1ec;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  color: #c94f7c;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #b3406b;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8e1ec;
+  margin-top: 2rem;
+}
+
+h2 {
+  text-align: center;
+  color: #c94f7c;
+}
+
+.blog .contenedor-blog,
+.carrito .contenedor {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(201, 79, 124, 0.1);
+}
+
+.entrada-blog {
+  border-bottom: 1px solid #f3d6e3;
+  padding: 1rem 0;
+}
+
+.entrada-blog h3 {
+  color: #b3406b;
+}
+
+.entrada-blog .fecha {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.entrada-blog a {
+  color: #c94f7c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.producto-carrito {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #f3d6e3;
+  padding-bottom: 1rem;
+}
+
+.producto-carrito img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.total {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.total button {
+  background-color: #c94f7c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
