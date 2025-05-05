@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'Coolvetica Rg Cond';
+  src: url('flowerecoobrushes/fonts/Coolvetica Rg Cond.otf') format('truetype');
+}
+
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+ font-family: 'Coolvetica Rg Cond', sans-serif;
   background-color: #fef4f8;
   color: #333;
   margin: 0;
