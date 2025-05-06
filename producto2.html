@@ -4,15 +4,73 @@
   <meta charset="UTF-8">
   <title>Producto 2</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Coolvetica Rg Cond', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .producto-detalle {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    .producto-detalle img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .producto-detalle h1 {
+      color: #d81b60;
+    }
+
+    .producto-detalle p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .boton-carrito {
+      background-color: #d81b60;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .boton-carrito:hover {
+      background-color: #c2185b;
+    }
+
+    .volver {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      text-decoration: none;
+      color: #7b1fa2;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <a href="index.html">← Volver a la tienda</a>
-  <div class="detalle-producto">
-    <img src="img/tu-imagen.jpg" alt="Producto 2" style="width: 300px;">
+  <a class="volver" href="index.html">← Volver a la tienda</a>
+
+  <div class="producto-detalle">
+    <img src="img/tu-imagen.jpg" alt="Producto 1">
     <h1>PRODUCTO 2</h1>
     <p>$XXX.XX MXN</p>
-    <p>Descripción completa del producto aquí.</p>
-    <button onclick="alert('Agregado al carrito')">Agregar al carrito</button>
+    <p>DESCRIPCIÓN</p>
+    <button class="boton-carrito" onclick="alert('Producto agregado al carrito')">Agregar al carrito</button>
   </div>
 </body>
 </html>
