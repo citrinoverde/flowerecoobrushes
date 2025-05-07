@@ -136,3 +136,31 @@ h2 {
   max-width: 150px;
   height: auto;
 }
+
+.historia {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fce4ec;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+  text-align: center;
+  color: #d81b60;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.historia p, .historia ul {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.historia ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
